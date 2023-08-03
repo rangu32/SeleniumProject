@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-02T21:49:29 IST" name="Default Suite" finished-at="2023-08-02T21:50:05 IST" duration-ms="35763">
+    <groups>
+    </groups>
+    <test started-at="2023-08-02T21:49:29 IST" name="SeleniumProject" finished-at="2023-08-02T21:50:05 IST" duration-ms="35763">
+      <class name="org.test.BrowserLaunch">
+        <test-method is-config="true" signature="testBrowser()[pri:0, instance:org.test.BrowserLaunch@609db43b]" started-at="2023-08-02T21:49:29 IST" name="testBrowser" finished-at="2023-08-02T21:49:50 IST" duration-ms="21045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBrowser -->
+        <test-method signature="launchurl()[pri:1, instance:org.test.BrowserLaunch@609db43b]" started-at="2023-08-02T21:49:50 IST" name="launchurl" finished-at="2023-08-02T21:50:00 IST" duration-ms="10009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="searchanygoogle()[pri:2, instance:org.test.BrowserLaunch@609db43b]" started-at="2023-08-02T21:50:00 IST" name="searchanygoogle" finished-at="2023-08-02T21:50:01 IST" duration-ms="960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchanygoogle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.test.BrowserLaunch@609db43b]" started-at="2023-08-02T21:50:01 IST" name="tearDown" finished-at="2023-08-02T21:50:05 IST" duration-ms="3468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.test.BrowserLaunch -->
+      <class name="org.test.Sample">
+        <test-method signature="loginFailed()[pri:0, instance:org.test.Sample@4e3958e7]" started-at="2023-08-02T21:49:50 IST" name="loginFailed" finished-at="2023-08-02T21:49:50 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailed -->
+        <test-method signature="logintest()[pri:0, instance:org.test.Sample@4e3958e7]" started-at="2023-08-02T21:49:50 IST" name="logintest" finished-at="2023-08-02T21:49:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- org.test.Sample -->
+    </test> <!-- SeleniumProject -->
+  </suite> <!-- Default Suite -->
+</testng-results>
