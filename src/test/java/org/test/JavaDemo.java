@@ -10,7 +10,7 @@ public class JavaDemo {
 
         WebDriver driver=new ChromeDriver();
 
-        driver.get("www.celebratix.com");
+        driver.get("www.sample.com");
 
 
 
