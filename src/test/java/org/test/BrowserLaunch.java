@@ -33,7 +33,7 @@ public class BrowserLaunch {
     public void searchanygoogle() throws InterruptedException {
 
 
-        driver.findElement(By.id("APjFqb")).sendKeys("celebratix");
+        driver.findElement(By.id("APjFqb")).sendKeys("facebook");
         Thread.sleep(3000);
 
     }
